@@ -52,7 +52,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.05 }}
           className="font-display italic font-light text-carbon leading-[1.04] tracking-tight mb-5 text-[clamp(2.6rem,4.8vw,5.2rem)]"
         >
-          Tu cuerpo cambia<br />cuando tu alimentación<br />tiene sentido.
+          Tu cuerpo <span className="text-terracotta">cambia</span><br />cuando tu alimentación<br />tiene sentido.
         </motion.p>
 
         <motion.p
@@ -115,7 +115,7 @@ export default function Hero() {
 
         <div className="space-y-4">
           <h1 className="font-display italic font-light text-cream leading-[1.06] tracking-tight text-[2.4rem]">
-            Tu cuerpo cambia cuando tu alimentación tiene sentido.
+            Tu cuerpo <span className="text-terracotta">cambia</span> cuando tu alimentación tiene sentido.
           </h1>
 
           <p className="text-cream/55 font-light leading-relaxed text-[0.95rem]">
