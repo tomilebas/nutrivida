@@ -50,9 +50,9 @@ export default function Hero() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, delay: 0.05 }}
-          className="font-display italic font-light text-carbon leading-[1.04] tracking-tight mb-5 text-[clamp(3rem,5.2vw,5.6rem)]"
+          className="font-display italic font-light text-carbon leading-[1.04] tracking-tight mb-5 text-[clamp(2.6rem,4.8vw,5.2rem)]"
         >
-          Lic. Noelia<br />Cabello
+          Tu cuerpo cambia<br />cuando tu alimentación<br />tiene sentido.
         </motion.p>
 
         <motion.p
@@ -60,9 +60,9 @@ export default function Hero() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.18 }}
-          className="text-carbon/50 font-light leading-relaxed mb-10 max-w-sm text-[clamp(0.95rem,1.15vw,1.1rem)]"
+          className="text-carbon/55 font-light leading-relaxed mb-10 max-w-sm text-[clamp(0.95rem,1.15vw,1.1rem)]"
         >
-          Nutricionista clínica y deportiva. Construimos hábitos reales que funcionan para tu vida — sin dietas extremas, sin restricciones vacías.
+          <span className="font-medium text-carbon/80">Lic. Noelia Cabello</span> — Nutricionista clínica y deportiva. Hábitos reales que funcionan para tu vida, sin dietas extremas.
         </motion.p>
 
         <motion.div
@@ -114,12 +114,12 @@ export default function Hero() {
         </div>
 
         <div className="space-y-4">
-          <h1 className="font-display italic font-light text-cream leading-[1.06] tracking-tight text-[2.6rem]">
-            Lic. Noelia Cabello
+          <h1 className="font-display italic font-light text-cream leading-[1.06] tracking-tight text-[2.4rem]">
+            Tu cuerpo cambia cuando tu alimentación tiene sentido.
           </h1>
 
           <p className="text-cream/55 font-light leading-relaxed text-[0.95rem]">
-            Nutricionista clínica y deportiva. Hábitos reales, sin dietas extremas.
+            <span className="font-medium text-cream/80">Lic. Noelia Cabello</span> — Nutricionista clínica y deportiva.
           </p>
 
           <a
